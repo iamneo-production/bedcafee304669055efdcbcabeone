@@ -63,5 +63,28 @@ p {
   border:1px solid gray;
 }
 #b6{
-  
+  border-top:1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left:1px solid gray;
+
+}
+#b7{
+  border-top:1px solid gray;
+  border-right: 1px solid gray;
+}
+#b8{
+  border-top:1px solid gray;
+  border-right: 1px solid gray;
+  border-left:1px solid gray;
+}
+#b9{
+  border-top:1px solid gray;
+  border-left:1px solid gray;
+}
+#but{
+  box-sizing:border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  margin-left:
 }
