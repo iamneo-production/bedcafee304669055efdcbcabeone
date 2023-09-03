@@ -43,3 +43,25 @@ p {
   border-bottom:1px solid gray;
   border-right: 1px solid gray;
 }
+#b2{
+  border-bottom:1px solid gray;
+  border-right: 1px solid gray;
+  border-left:ipx solid gray;
+
+}
+#b3{
+  border-bottom:1px solid gray;
+  border-left: 1px solid gray;
+}
+#b4{
+  border-top:1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right:ipx solid gray;
+
+}
+#b5{
+  border:1px solid gray;
+}
+#b6{
+  
+}
