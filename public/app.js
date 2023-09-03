@@ -284,7 +284,23 @@ function myfunc(){
 
     }
 
+}
+function myfunc_2(){
+    location.reload();
+    b1=b2=b3=b4=b5=b6=b7=b8=b9='';
 
 }
-
+flag=1;
+function myfunc_3(){
+    if(flag==1){
+        document.getElementsById("b1").value='X';
+        document.getElementsById("b1").disabled=true;
+        flag=0;
+        else{
+            document.getElementsById("b1").value='O';
+            document.getElementsById("b1").disabled=true;
+            flag=0; 
+        }
+    }
+}
 
