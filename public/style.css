@@ -89,17 +89,17 @@ p {
   border-top:1px solid gray;
   border-left:1px solid gray;
 }
-#rese{
+#reset{
+  text-align: center;
   box-sizing:border-box;
   width: 95px;
   height: 40px;
-  border: 1px solid dodgerblue;
+  border: black;
   margin-left: auto;
   border-radius: 8px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: whitesmoke;
-  color: dodgerblue;
-  font-size: 20px;
+  color: rgb(17, 17, 17);
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -111,9 +111,4 @@ p {
 
 #main {
   text-align: center;
-}
-
-#ins {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: dodgerblue;
 }

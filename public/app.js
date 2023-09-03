@@ -283,15 +283,8 @@ function myfunc(){
         b9btn.style.color = "red";
 
     }
-    
-
-}
-}
-}
-}
 
 
 }
-}
-}
+
 
