@@ -176,7 +176,35 @@ function myfunc(){
         b1btn.disabled = true;
         b3btn.disabled = true;
         b6btn.disabled = true;
-        bbtn.disabled = true;
+        b4btn.disabled = true;
+        b7btn.disabled = true;
+        b9btn.disabled = true;
+
+        b2btn.style.color = "red";
+        b5btn.style.color = "red";
+        b8btn.style.color = "red";
+
+    }
+    else if((b4 == 'x' || b4 == 'X') && (b5 == 'x' || b5 == 'X') && (b6 == 'x' || b6 == 'X')){
+        document.getElementById('print').innerHTML = "Player X won";
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b1btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+
+        b5btn.style.color = "red";
+        b4btn.style.color = "red";
+        b6btn.style.color = "red";
+
+    }
+    else if((b1 == 'x' || b1 == 'X') && (b4 == 'x' || b4 == 'X') && (b7 == 'x' || b7 == 'X')){
+        document.getElementById('print').innerHTML = "Player X won";
+        b2btn.disabled = true;
+        b3btn.disabled = true;
+        b6btn.disabled = true;
+        b5btn.disabled = true;
         b8btn.disabled = true;
         b9btn.disabled = true;
 
@@ -185,6 +213,35 @@ function myfunc(){
         b7btn.style.color = "red";
 
     }
+    else if((b1 == 'o' || b1 == 'O') && (b2 == 'o' || b2 == 'O') && (b3 == 'o' || b3 == 'O')){
+        document.getElementById('print').innerHTML = "Player O won";
+        b4btn.disabled = true;
+        b5btn.disabled = true;
+        b6btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+
+        b1btn.style.color = "red";
+        b2btn.style.color = "red";
+        b3btn.style.color = "red";
+
+    }
+    else if((b1 == 'o' || b1 == 'O') && (b4 == 'o' || b4 == 'O') && (b7 == 'o' || b7 == 'O')){
+        document.getElementById('print').innerHTML = "Player O won";
+        b2btn.disabled = true;
+        b5btn.disabled = true;
+        b6btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+
+        b1btn.style.color = "red";
+        b2btn.style.color = "red";
+        b3btn.style.color = "red";
+
+    }
+
 }
 }
 }
